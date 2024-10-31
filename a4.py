@@ -10,11 +10,18 @@ class TTTBoard:
             represent moves by player 'O' and '*'s are spots no one has yet played on
     """
 
-    pass
+def __init__(self):
+
+    board = ["*","*","*","*","*","*","*","*","*"]
+  
 
 
-def play_tic_tac_toe() -> None:
-    """Uses your class to play TicTacToe"""
+def __str__(self):
+
+
+
+    def play_tic_tac_toe() -> None:
+        """Uses your class to play TicTacToe"""
 
     def is_int(maybe_int: str):
         """Returns True if val is int, False otherwise
