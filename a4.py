@@ -18,7 +18,7 @@ def __init__(self):
 
 def __str__(self):
 
-
+    return board 
 
     def play_tic_tac_toe() -> None:
         """Uses your class to play TicTacToe"""
@@ -32,6 +32,10 @@ def __str__(self):
         Returns:
             True if maybe_int is an int, False otherwise
         """
+
+        def make_move(self, player, pos):
+
+
         try:
             int(maybe_int)
             return True
