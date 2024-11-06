@@ -36,10 +36,10 @@ def __str__(self):
         def make_move(self, player, pos):
 
 
-        try:
+    try:
             int(maybe_int)
             return True
-        except ValueError:
+    except ValueError:
             return False
 
     brd = TTTBoard()
